@@ -5,16 +5,34 @@
     android:id="@+id/fragment1"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".ui.fragment1.Fragment1">
+    tools:context=".ui.fragment1.Fragment1"
+    tools:layout_editor_absoluteY="81dp">
+
+    <HorizontalScrollView
+        android:id="@+id/horizontalScrollView"
+        android:layout_width="384dp"
+        android:layout_height="511dp" />
 
     <TextView
-        android:id="@+id/message"
+        android:id="@+id/textView"
+        android:layout_width="376dp"
+        android:layout_height="72dp"
+        android:layout_marginStart="8dp"
+
+        android:text="Connecting the bluetooth headset"
+        android:textColor="@color/colorPrimaryDark"
+        android:background="@color/colorPrimary"
+        android:textSize="20dp"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="0dp" />
+
+    <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Fragment1"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
-
+        android:text="STEP 1:"
+        android:textColor="@color/colorPrimaryDark"
+        android:background="@color/colorPrimary"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="80dp" />
+</HorizontalScrollView>
 </android.support.constraint.ConstraintLayout>

@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <AbsoluteLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/fragment1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    tools:layout_editor_absoluteY="81dp">
+
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:layout_editor_absoluteX="55dp"
+        tools:layout_editor_absoluteY="0dp">
+
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="376dp"
+        android:layout_height="72dp"
+        android:layout_marginStart="8dp"
+
+        android:layout_x="0dp"
+        android:layout_y="0dp"
+        android:background="@color/colorPrimary"
+        android:text="Connecting the bluetooth headset"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="20dp"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="0dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="0dp"
+        android:layout_y="113dp"
+        android:background="@color/colorPrimary"
+        android:text="STEP 1:"
+        android:textColor="@color/colorPrimaryDark"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="80dp" />
+
+    <TextView
+        android:layout_width="248dp"
+        android:layout_height="23dp"
+        android:layout_x="68dp"
+        android:layout_y="111dp"
+        android:background="@color/colorPrimary"
+        android:text="Turn on the bluetooth in phone"
+
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="17dp"
+        tools:layout_editor_absoluteX="65dp"
+        tools:layout_editor_absoluteY="76dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="0dp"
+        android:layout_y="240dp"
+        android:background="@color/colorPrimary"
+        android:text="Step 2"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="17dp"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="114dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="100dp"
+        android:layout_y="215dp"
+        android:background="@color/colorPrimary"
+        android:text="turn on the headset"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="17dp"
+        tools:layout_editor_absoluteX="65dp"
+        tools:layout_editor_absoluteY="114dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="61dp"
+        android:layout_y="237dp"
+        android:background="@color/colorPrimary"
+        android:text="turn on headset.Press and hold the middle
+button"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="17dp"
+        tools:layout_editor_absoluteX="65dp"
+        tools:layout_editor_absoluteY="107dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="0dp"
+        android:layout_y="308dp"
+        android:background="@color/colorPrimary"
+        android:text="step 3"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="17dp"
+        tools:layout_editor_absoluteX="1dp"
+        tools:layout_editor_absoluteY="162dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="60dp"
+        android:layout_y="299dp"
+        android:background="@color/colorPrimary"
+        android:text="open bluetooth settings by press and
+hold bluetooth icon in phone"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="17dp"
+        tools:layout_editor_absoluteX="65dp"
+        tools:layout_editor_absoluteY="162dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="4dp"
+        android:layout_y="380dp"
+        android:background="@color/colorPrimary"
+        android:text="step 4"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="17dp"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="226dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="62dp"
+        android:layout_y="379dp"
+        android:background="@color/colorPrimary"
+        android:text="click on the name iball"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="17dp"
+        tools:layout_editor_absoluteX="65dp"
+        tools:layout_editor_absoluteY="226dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="44dp"
+        android:layout_y="436dp"
+        android:background="@color/colorPrimary"
+        android:text="you will hear a sound 'connected'
+if connected properly"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="17dp"
+        tools:layout_editor_absoluteX="49dp"
+        tools:layout_editor_absoluteY="272dp" />
+
+</AbsoluteLayout>

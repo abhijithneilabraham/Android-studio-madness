@@ -8,18 +8,14 @@
     tools:context=".ui.fragment1.Fragment1"
     tools:layout_editor_absoluteY="81dp">
 
-    <HorizontalScrollView
-        android:id="@+id/horizontalScrollView"
-        android:layout_width="384dp"
-        android:layout_height="511dp"
-        tools:layout_editor_absoluteX="0dp"
-        tools:layout_editor_absoluteY="0dp" />
+
 
     <TextView
         android:id="@+id/textView"
         android:layout_width="376dp"
         android:layout_height="72dp"
         android:layout_marginStart="8dp"
+
 
         android:text="Connecting the bluetooth headset"
         android:textColor="@color/colorPrimaryDark"
@@ -139,5 +135,5 @@ if connected properly"
         android:textSize="17dp"
         tools:layout_editor_absoluteX="49dp"
         tools:layout_editor_absoluteY="272dp" />
-HorizontalScrollView>
+
 </android.support.constraint.ConstraintLayout>

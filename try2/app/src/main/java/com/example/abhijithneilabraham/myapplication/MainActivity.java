@@ -1,4 +1,4 @@
-package com.example.abhijithneilabraham.atry;
+package com.example.abhijithneilabraham.myapplication;
 
 import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentManager;
@@ -11,6 +11,8 @@ import android.view.ViewGroup;
 import android.widget.Button;
 import android.app.*;
 
+import com.example.abhijithneilabraham.myapplication.R;
+
 
 public class MainActivity extends AppCompatActivity {
     boolean status=false;
@@ -22,7 +24,7 @@ public class MainActivity extends AppCompatActivity {
         button.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-              android.app.Fragment fragmentOne= new android.app.Fragment();
+                android.app.Fragment fragmentOne= new android.app.Fragment();
                 android.app.FragmentTransaction transaction = getFragmentManager().beginTransaction();
                 transaction.replace(R.id.fragment1, fragmentOne); // fragmen container id in first parameter is the  container(Main layout id) of Activity
                 transaction.addToBackStack(null);  // this will manage backstack

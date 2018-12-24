@@ -11,7 +11,9 @@
     <HorizontalScrollView
         android:id="@+id/horizontalScrollView"
         android:layout_width="384dp"
-        android:layout_height="511dp" />
+        android:layout_height="511dp"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="0dp" />
 
     <TextView
         android:id="@+id/textView"
@@ -34,5 +36,108 @@
         android:background="@color/colorPrimary"
         tools:layout_editor_absoluteX="0dp"
         tools:layout_editor_absoluteY="80dp" />
-</HorizontalScrollView>
+
+    <TextView
+        android:layout_width="248dp"
+        android:layout_height="23dp"
+        android:background="@color/colorPrimary"
+        android:text="Turn on the bluetooth in phone"
+        android:textSize="17dp"
+        android:textColor="@color/colorPrimaryDark"
+
+        tools:layout_editor_absoluteX="65dp"
+        tools:layout_editor_absoluteY="76dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimary"
+        android:text="Step 2"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="17dp"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="114dp" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimary"
+        android:text="Step 2"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="17dp"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="114dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimary"
+        android:text="turn on the headset"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="17dp"
+        tools:layout_editor_absoluteX="65dp"
+        tools:layout_editor_absoluteY="114dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimary"
+        android:text="turn on headset.Press and hold the middle
+button"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="17dp"
+        tools:layout_editor_absoluteX="65dp"
+        tools:layout_editor_absoluteY="107dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimary"
+        android:text="step 3"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="17dp"
+        tools:layout_editor_absoluteX="1dp"
+        tools:layout_editor_absoluteY="162dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimary"
+        android:text="open bluetooth settings by press and
+hold bluetooth icon in phone"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="17dp"
+        tools:layout_editor_absoluteX="65dp"
+        tools:layout_editor_absoluteY="162dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimary"
+        android:text="step 4"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="17dp"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="226dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimary"
+        android:text="click on the name iball"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="17dp"
+        tools:layout_editor_absoluteX="65dp"
+        tools:layout_editor_absoluteY="226dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimary"
+        android:text="you will hear a sound 'connected'
+if connected properly"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="17dp"
+        tools:layout_editor_absoluteX="49dp"
+        tools:layout_editor_absoluteY="272dp" />
+HorizontalScrollView>
 </android.support.constraint.ConstraintLayout>

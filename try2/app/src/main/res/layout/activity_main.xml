@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
-<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
@@ -7,28 +8,35 @@
     tools:context=".MainActivity">
 
     <ImageView
-        android:id="@+id/imageView2"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        tools:layout_editor_absoluteX="0dp"
-        tools:layout_editor_absoluteY="0dp"
-        tools:srcCompat="@tools:sample/backgrounds/scenic"
-        tools:ignore="MissingConstraints" />
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="0dp"
+
+        android:src="@drawable/daddy" />
 
     <Button
         android:id="@+id/button1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="105dp"
+        android:layout_marginTop="224dp"
         android:text="click me"
+        tools:ignore="MissingConstraints"
         tools:layout_editor_absoluteX="160dp"
-        tools:layout_editor_absoluteY="243dp"
-        tools:ignore="MissingConstraints" />
+        tools:layout_editor_absoluteY="243dp" />
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="170dp"
+        android:layout_alignParentBottom="true"
         android:layout_marginLeft="267dp"
         android:layout_marginRight="201dp"
+        android:layout_marginBottom="113dp"
         android:text="Hey Advocate!"
         android:visibility="visible"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -39,4 +47,8 @@
         app:layout_constraintVertical_bias="0.102" />
 
 
-</AbsoluteLayout>
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    </RelativeLayout>
+

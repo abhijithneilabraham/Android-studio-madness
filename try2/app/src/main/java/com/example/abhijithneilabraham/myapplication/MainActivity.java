@@ -17,7 +17,7 @@ import com.example.abhijithneilabraham.myapplication.R;
 
 
 public class MainActivity extends FragmentActivity {
-    boolean status=false;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -26,9 +26,9 @@ public class MainActivity extends FragmentActivity {
         button.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Fragment fragmentOne= new Fragment();
+                Fragmentone fragmentOne = new Fragmentone();
                 FragmentTransaction transaction = getSupportFragmentManager().beginTransaction();
-                transaction.replace(R.id.fragment1,fragmentOne);
+                transaction.replace(R.id.main,fragmentOne);
                 transaction.addToBackStack(null);
                 transaction.commit();
 

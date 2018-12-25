@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-    <android.support.constraint.ConstraintLayout
+    <RelativeLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
@@ -8,149 +8,159 @@
     android:layout_height="match_parent"
 
     tools:layout_editor_absoluteY="81dp">
+<ImageView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/ic_launcher_background"/>
 
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        tools:layout_editor_absoluteX="55dp"
-        tools:layout_editor_absoluteY="0dp">
-
-
-    <TextView
+        <TextView
         android:id="@+id/textView"
         android:layout_width="376dp"
         android:layout_height="72dp"
-        android:layout_marginStart="8dp"
+        android:layout_alignParentTop="true"
 
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="0dp"
         android:layout_x="0dp"
         android:layout_y="0dp"
         android:background="@color/colorPrimary"
         android:text="Connecting the bluetooth headset"
         android:textColor="@color/colorPrimaryDark"
         android:textSize="20dp"
-        app:layout_constraintStart_toStartOf="parent"
-        tools:layout_editor_absoluteY="0dp" />
+            app:layout_constraintStart_toStartOf="parent"
+            tools:layout_editor_absoluteY="0dp" />
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_x="0dp"
-        android:layout_y="113dp"
+
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="94dp"
+        android:layout_marginEnd="-54dp"
+
         android:background="@color/colorPrimary"
-        android:text="STEP 1:"
+        android:text="step 1"
         android:textColor="@color/colorPrimaryDark"
-        tools:layout_editor_absoluteX="0dp"
-        tools:layout_editor_absoluteY="80dp" />
+        android:textSize="20dp" />
 
     <TextView
         android:layout_width="248dp"
         android:layout_height="23dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="98dp"
         android:layout_x="68dp"
+
         android:layout_y="111dp"
         android:background="@color/colorPrimary"
         android:text="Turn on the bluetooth in phone"
-
         android:textColor="@color/colorPrimaryDark"
-        android:textSize="17dp"
-        tools:layout_editor_absoluteX="65dp"
-        tools:layout_editor_absoluteY="76dp" />
+        android:textSize="17dp" />
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="156dp"
         android:layout_x="0dp"
         android:layout_y="240dp"
         android:background="@color/colorPrimary"
         android:text="Step 2"
         android:textColor="@color/colorPrimaryDark"
-        android:textSize="17dp"
-        tools:layout_editor_absoluteX="0dp"
-        tools:layout_editor_absoluteY="114dp" />
+        android:textSize="17dp" />
+
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_x="100dp"
-        android:layout_y="215dp"
-        android:background="@color/colorPrimary"
-        android:text="turn on the headset"
-        android:textColor="@color/colorPrimaryDark"
-        android:textSize="17dp"
-        tools:layout_editor_absoluteX="65dp"
-        tools:layout_editor_absoluteY="114dp" />
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="145dp"
+        android:layout_marginEnd="0dp"
         android:layout_x="61dp"
+
         android:layout_y="237dp"
         android:background="@color/colorPrimary"
         android:text="turn on headset.Press and hold the middle
 button"
         android:textColor="@color/colorPrimaryDark"
-        android:textSize="17dp"
-        tools:layout_editor_absoluteX="65dp"
-        tools:layout_editor_absoluteY="107dp" />
+        android:textSize="17dp" />
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+
+
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="220dp"
         android:layout_x="0dp"
         android:layout_y="308dp"
         android:background="@color/colorPrimary"
         android:text="step 3"
         android:textColor="@color/colorPrimaryDark"
-        android:textSize="17dp"
-        tools:layout_editor_absoluteX="1dp"
-        tools:layout_editor_absoluteY="162dp" />
+        android:textSize="17dp" />
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/textView"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="54dp"
+        android:layout_marginTop="214dp"
         android:layout_x="60dp"
         android:layout_y="299dp"
         android:background="@color/colorPrimary"
         android:text="open bluetooth settings by press and
 hold bluetooth icon in phone"
         android:textColor="@color/colorPrimaryDark"
-        android:textSize="17dp"
-        tools:layout_editor_absoluteX="65dp"
-        tools:layout_editor_absoluteY="162dp" />
+        android:textSize="17dp" />
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/textView"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="-4dp"
+        android:layout_marginTop="311dp"
         android:layout_x="4dp"
         android:layout_y="380dp"
         android:background="@color/colorPrimary"
         android:text="step 4"
         android:textColor="@color/colorPrimaryDark"
         android:textSize="17dp"
-        tools:layout_editor_absoluteX="0dp"
-        tools:layout_editor_absoluteY="226dp" />
+        />
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/textView"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="58dp"
+        android:layout_marginTop="312dp"
         android:layout_x="62dp"
         android:layout_y="379dp"
         android:background="@color/colorPrimary"
         android:text="click on the name iball"
         android:textColor="@color/colorPrimaryDark"
-        android:textSize="17dp"
-        tools:layout_editor_absoluteX="65dp"
-        tools:layout_editor_absoluteY="226dp" />
+        android:textSize="17dp" />
 
     <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="261dp"
+        android:layout_height="67dp"
+
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="387dp"
+        android:layout_marginEnd="68dp"
         android:layout_x="44dp"
         android:layout_y="436dp"
         android:background="@color/colorPrimary"
         android:text="you will hear a sound 'connected'
-if connected properly"
+            if connected properly"
         android:textColor="@color/colorPrimaryDark"
-        android:textSize="17dp"
-        tools:layout_editor_absoluteX="49dp"
-        tools:layout_editor_absoluteY="272dp" />
+        android:textSize="17dp" />
 
-</android.support.constraint.ConstraintLayout>
+</RelativeLayout>
